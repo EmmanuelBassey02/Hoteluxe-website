@@ -6,7 +6,7 @@ import { contact } from "../components/data/Data";
 export default function Contact() {
   return (
     <>
-      <Heading heading="Contact" title="Home" subtitle="Contact" />
+      <Heading heading="Contact" title="Home" subtitle="Contact"/>
 
       <div class="container-xxl py-5">
         <div class="container">

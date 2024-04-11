@@ -1,7 +1,7 @@
 import React from "react";
-import { testimonial } from "../data/Data";
+// import { testimonial } from "../data/Data";
 
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -20,7 +20,7 @@ export default function Sliders() {
         data-wow-delay="0.1s"
       >
         <div className="container">
-          <div className="owl-carousel testimonial-carousel py-5">
+          {/* <div className="owl-carousel testimonial-carousel py-5">
             <Slider {...settings}>
               {testimonial.map((item, key) => (
                 <div
@@ -43,7 +43,7 @@ export default function Sliders() {
                 </div>
               ))}
             </Slider>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

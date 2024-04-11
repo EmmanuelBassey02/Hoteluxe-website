@@ -18,20 +18,20 @@ export default function Header() {
 
   return (
     <>
-      <div className="container-fluid bg-dark px-0">
-        <div className="row gx-0">
-          <div className="col-lg-3 bg-dark d-none d-lg-block">
+      <div className="navbar sticky-top container-fluid bg-dark px-0 sticky top-0">
+        <div className="navbar row gx-0">
+          <div className="navbar col-lg-3 bg-dark d-none d-lg-block">
             <Link
               to="/"
-              className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+              className="navbar-brand sticky top-0 w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
             >
-              <h1 className="m-0 text-primary text-uppercase">Hotelier</h1>
+              <h1 className="m-0 text-primary text-uppercase">Hotelux</h1>
             </Link>
           </div>
           <div className="col-lg-9">
-            <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+            <nav className="navbar navbar-expand-lg bg-dark  navbar-dark p-3 p-lg-0">
               <Link to="/" className="navbar-brand d-block d-lg-none">
-                <h1 className="m-0 text-primary text-uppercase">Hotelier</h1>
+                <h1 className="m-0 text-primary text-uppercase">Hotelux</h1>
               </Link>
               <button
                 type="button"
@@ -47,7 +47,7 @@ export default function Header() {
                     : "collapse navbar-collapse justify-content-around"
                 }
               >
-                <div className="navbar-nav mr-auto py-0">
+                <div className="navbar-nav mr-auto  py-0">
                   {navList.map((item, index) => (
                     <div key={index}>
                       {item.subItems ? (

@@ -23,6 +23,7 @@ export const navList = [
     id: 5,
     path: "/page",
     text: "Page",
+    
     subItems: [
       {
         id: 51,
@@ -68,14 +69,14 @@ export const socialIcons = [
 export const carouselData = [
   {
     img: "../assets/img/carousel-1.jpg",
-    title: "Discover A Brand Luxurious Hotel",
+    title: "Where luxury meets Tranquility",
     subtitle: "luxury living",
-    btn1: "Our Room",
+    btn1: "Our Rooms",
     btn2: "Book Room",
   },
   {
     img: "../assets/img/carousel-2.jpg",
-    title: "Discover A Brand Luxurious Hotel",
+    title: "Unravel the Essence of Unparalleled Luxury",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
@@ -102,57 +103,57 @@ export const about = [
 export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Rooms & Apartments",
+    description: "where every detail is crafted to ensure your comfort and relaxation",
   },
   {
     icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
     name: "Food & Restaurant",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    description: "From gourmet meals to comforting classics, savor every moment of culinary bliss with us.",
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
     name: "Spa & Fitness",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    description: "Contrary to popular belief, ipsum is not simply random.",
   },
 
   {
     icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
     name: "Sports & Gaming",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    description: "For the ultimate thrill-seekers and sports enthusiasts, our state-of-the-art facilities beckon you to unleash your competitive spirit.",
   },
   {
     icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
     name: "Event & Party",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    description: "Celebrate life's special moments in unparalleled style and sophistication at our exquisite event venues.",
   },
 
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
     name: "GYM & Yoga",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    description: "Energize your body and nourish your soul in our cutting-edge fitness center and tranquil yoga studio. ",
   },
 ];
 export const team = [
   {
     image: "../assets/img/team-1.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Mike Oman",
+    designation: "Guest Relations Manager",
   },
   {
     image: "../assets/img/team-2.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Matt Redman",
+    designation: "Fitness Instructor",
   },
   {
     image: "../assets/img/team-3.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Mark Ivann",
+    designation: "Event Coordinator",
   },
   {
-    image: "../assets/img/team-3.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    image: "../assets/img/team-4.jpg",
+    name: "Mike Jakes",
+    designation: "Marketing Coordinator",
   },
 ];
 
@@ -212,7 +213,7 @@ export const footerContact = [
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "info@example.com",
+    name: "hotelux@example.com",
   },
 ];
 
@@ -233,44 +234,44 @@ export const contact = [
     email: "info@example.com",
   },
 ];
-export const testimonial = [
-  {
-    description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
-    icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-    ),
-    img: "../assets/img/testimonial-1.jpg",
-  },
-  {
-    description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
-    icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-    ),
-    img: "../assets/img/testimonial-2.jpg",
-  },
-  {
-    description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
-    icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-    ),
-    img: "../assets/img/testimonial-3.jpg",
-  },
-];
+// export const testimonial = [
+//   {
+//     description:
+//       "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
+//     name: "Client Name",
+//     profession: "Profession",
+//     icon: (
+//       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+//     ),
+//     img: "../assets/img/testimonial-1.jpg",
+//   },
+//   {
+//     description:
+//       "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
+//     name: "Client Name",
+//     profession: "Profession",
+//     icon: (
+//       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+//     ),
+//     img: "../assets/img/testimonial-2.jpg",
+//   },
+//   {
+//     description:
+//       "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
+//     name: "Client Name",
+//     profession: "Profession",
+//     icon: (
+//       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+//     ),
+//     img: "../assets/img/testimonial-3.jpg",
+//   },
+// ];
 
 export const roomItems = [
   {
     img: "../assets/img/room-1.jpg",
-    price: "$110/night",
-    name: "Junior Suit",
+    price: "$110/Night",
+    name: "Junior Suite",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -279,14 +280,15 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+
+      "Each Junior Suite features a spacious living area, a cozy sleeping area, and a well-appointed bathroom, creating a serene sanctuary for relaxation and rejuvenation.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
 
   {
     img: "../assets/img/room-2.jpg",
-    price: "$110/night",
+    price: "$200/Night",
     name: "Executive Suite",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -296,13 +298,13 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "Featuring a separate living room, a luxurious bedroom, and a lavish bathroom, our Executive Suites provide ample space to spread out and unwind in style.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
   {
     img: "../assets/img/room-3.jpg",
-    price: "$110/night",
+    price: "$300/Night",
     name: "Super Deluxe",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -312,7 +314,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "Each Super Deluxe Suite features spacious living areas, sumptuous bedrooms, and opulent bathrooms adorned with the finest fixtures and amenities. ",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
@@ -334,3 +336,5 @@ export const facility = [
     facility: "Wifi",
   },
 ];
+
+

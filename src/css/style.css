@@ -86,6 +86,12 @@
     outline: none;
 }
 
+/* .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} */
+
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--primary);
@@ -95,6 +101,9 @@
     .navbar-dark .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
+        position: sticky;
+        top: 0;
+        z-index: 5;
     }
 }
 
